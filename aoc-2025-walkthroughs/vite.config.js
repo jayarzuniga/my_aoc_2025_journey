@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/my_aoc_2025_journey/', // Replace with your repository name
+  base: '/my_aoc_2025_journey/', 
 })

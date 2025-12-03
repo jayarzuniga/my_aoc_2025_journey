@@ -68,7 +68,7 @@ function Day1() {
         <div className="text-center mb-8 bg-gray-900 p-4 rounded-lg border border-gray-700">
           <p className="text-gray-400 text-sm mb-2">Screenshot: Initial login screen</p>
           <img 
-            src="/images/day1/day1_img1.png" 
+            src="//my_aoc_2025_journey/images/day1/day1_img1.png" 
             alt="Initial login screen"
             className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
           />
@@ -150,7 +150,7 @@ cat <filename>`}</code></pre>
           <div className="text-center mb-6 bg-gray-900 p-4 rounded-lg border border-gray-700">
             <p className="text-gray-400 text-sm mb-2">Screenshot: Initial directory listing</p>
             <img 
-              src="/images/day1/day1_img2.png" 
+              src="//my_aoc_2025_journey/images/day1/day1_img2.png" 
               alt="Initial directory listing in Documents folder"
               className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
             />
@@ -234,7 +234,7 @@ Password: S0mething1Sc0ming`}</code></pre>
           <div className="text-center mb-6 bg-gray-900 p-4 rounded-lg border border-gray-700">
             <p className="text-gray-400 text-sm mb-2">Screenshot: Logged in as eddi_knapp</p>
             <img 
-              src="/images/day1/day1_img3.png" 
+              src="//my_aoc_2025_journey/images/day1/day1_img3.png" 
               alt="Successfully logged in as eddi_knapp user"
               className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
             />
@@ -277,7 +277,7 @@ Password: S0mething1Sc0ming`}</code></pre>
           <div className="text-center mb-6 bg-gray-900 p-4 rounded-lg border border-gray-700">
             <p className="text-gray-400 text-sm mb-2">Screenshot: Environment variables output</p>
             <img 
-              src="/images/day1/day1_img4.png" 
+              src="//my_aoc_2025_journey/images/day1/day1_img4.png" 
               alt="Output of env command showing PASSFRAG1"
               className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
             />
@@ -290,7 +290,7 @@ Password: S0mething1Sc0ming`}</code></pre>
           <div className="text-center mb-6 bg-gray-900 p-4 rounded-lg border border-gray-700">
             <p className="text-gray-400 text-sm mb-2">Screenshot: First password fragment</p>
             <img 
-              src="/images/day1/day1_img5.png" 
+              src="//my_aoc_2025_journey/images/day1/day1_img5.png" 
               alt="PASSFRAG1 revealed"
               className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
             />
@@ -337,7 +337,7 @@ ls -la`}</code></pre>
           <div className="text-center mb-6 bg-gray-900 p-4 rounded-lg border border-gray-700">
             <p className="text-gray-400 text-sm mb-2">Screenshot: Home directory listing</p>
             <img 
-              src="/images/day1/day1_img6.png" 
+              src="//my_aoc_2025_journey/images/day1/day1_img6.png" 
               alt="Home directory showing .secret_git folder"
               className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
             />
@@ -355,7 +355,7 @@ ls -la`}</code></pre>
           <div className="text-center mb-6 bg-gray-900 p-4 rounded-lg border border-gray-700">
             <p className="text-gray-400 text-sm mb-2">Screenshot: Inside secret_git folder</p>
             <img 
-              src="/images/day1/day1_img7.png" 
+              src="//my_aoc_2025_journey/images/day1/day1_img7.png" 
               alt="Contents of .secret_git directory"
               className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
             />
@@ -373,7 +373,7 @@ ls -la`}</code></pre>
           <div className="text-center mb-6 bg-gray-900 p-4 rounded-lg border border-gray-700">
             <p className="text-gray-400 text-sm mb-2">Screenshot: Git status output</p>
             <img 
-              src="/images/day1/day1_img8.png" 
+              src="//my_aoc_2025_journey/images/day1/day1_img8.png" 
               alt="Git status showing clean working tree"
               className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
             />
@@ -400,7 +400,7 @@ ls -la`}</code></pre>
           <div className="text-center mb-6 bg-gray-900 p-4 rounded-lg border border-gray-700">
             <p className="text-gray-400 text-sm mb-2">Screenshot: Git log output</p>
             <img 
-              src="/images/day1/day1_img9.png" 
+              src="//my_aoc_2025_journey/images/day1/day1_img9.png" 
               alt="Git log showing commit history"
               className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
             />
@@ -425,7 +425,7 @@ ls -la`}</code></pre>
           <div className="text-center mb-6 bg-gray-900 p-4 rounded-lg border border-gray-700">
             <p className="text-gray-400 text-sm mb-2">Screenshot: Git show output revealing PASSFRAG2</p>
             <img 
-              src="/images/day1/day1_img10.png" 
+              src="//my_aoc_2025_journey/images/day1/day1_img10.png" 
               alt="Git show command revealing PASSFRAG2 in commit history"
               className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
             />
@@ -459,7 +459,7 @@ ls -la`}</code></pre>
           </ul>
 
           <p className="text-gray-300 mb-4">
-            Images are typically stored in the Pictures directory. Let's investigate:
+            /my_aoc_2025_journey/images are typically stored in the Pictures directory. Let's investigate:
           </p>
 
           <div className="bg-black border border-gray-700 rounded-lg p-4 mb-6">
@@ -472,7 +472,7 @@ ls -la`}</code></pre>
           <div className="text-center mb-6 bg-gray-900 p-4 rounded-lg border border-gray-700">
             <p className="text-gray-400 text-sm mb-2">Screenshot: Pictures directory contents</p>
             <img 
-              src="/images/day1/day1_img11.png" 
+              src="//my_aoc_2025_journey/images/day1/day1_img11.png" 
               alt="Listing of Pictures directory showing hidden files"
               className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
             />
@@ -498,7 +498,7 @@ ls -la`}</code></pre>
           <div className="text-center mb-6 bg-gray-900 p-4 rounded-lg border border-gray-700">
             <p className="text-gray-400 text-sm mb-2">Screenshot: Third password fragment</p>
             <img 
-              src="/images/day1/day1_img12.png" 
+              src="//my_aoc_2025_journey/images/day1/day1_img12.png" 
               alt="Cat command showing PASSFRAG3 content"
               className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
             />
@@ -541,7 +541,7 @@ ls`}</code></pre>
           <div className="text-center mb-6 bg-gray-900 p-4 rounded-lg border border-gray-700">
             <p className="text-gray-400 text-sm mb-2">Screenshot: Documents directory with encrypted file</p>
             <img 
-              src="/images/day1/day1_img13.png" 
+              src="//my_aoc_2025_journey/images/day1/day1_img13.png" 
               alt="Documents directory showing mcskidy_note.txt.gpg file"
               className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
             />
@@ -563,7 +563,7 @@ ls`}</code></pre>
           <div className="text-center mb-6 bg-gray-900 p-4 rounded-lg border border-gray-700">
             <p className="text-gray-400 text-sm mb-2">Screenshot: Decrypting the vault</p>
             <img 
-              src="/images/day1/day1_img14.png" 
+              src="//my_aoc_2025_journey/images/day1/day1_img14.png" 
               alt="Successfully decrypted GPG file"
               className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
             />
@@ -592,7 +592,7 @@ ls`}</code></pre>
           <div className="text-center mb-6 bg-gray-900 p-4 rounded-lg border border-gray-700">
             <p className="text-gray-400 text-sm mb-2">Screenshot: New terminal as mcskidy</p>
             <img 
-              src="/images/day1/day1_img15.png" 
+              src="//my_aoc_2025_journey/images/day1/day1_img15.png" 
               alt="Opening new terminal as mcskidy"
               className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
             />
@@ -621,7 +621,7 @@ ls`}</code></pre>
           <div className="text-center mb-6 bg-gray-900 p-4 rounded-lg border border-gray-700">
             <p className="text-gray-400 text-sm mb-2">Screenshot: Editing wishlist.txt in nano</p>
             <img 
-              src="/images/day1/day1_img16.png" 
+              src="//my_aoc_2025_journey/images/day1/day1_img16.png" 
               alt="Nano editor showing wishlist items being added"
               className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
             />
@@ -643,7 +643,7 @@ ls`}</code></pre>
           <div className="text-center mb-6 bg-gray-900 p-4 rounded-lg border border-gray-700">
             <p className="text-gray-400 text-sm mb-2">Screenshot: Unlock key revealed</p>
             <img 
-              src="/images/day1/day1_img17.png" 
+              src="//my_aoc_2025_journey/images/day1/day1_img17.png" 
               alt="Web interface showing UNLOCK_KEY after successful wishlist update"
               className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
             />
@@ -689,7 +689,7 @@ ls`}</code></pre>
           <div className="text-center mb-6 bg-gray-900 p-4 rounded-lg border border-gray-700">
             <p className="text-gray-400 text-sm mb-2">Screenshot: Decoded message</p>
             <img 
-              src="/images/day1/day1_img18.png" 
+              src="//my_aoc_2025_journey/images/day1/day1_img18.png" 
               alt="Final decoded message showing the flag"
               className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
             />
@@ -739,7 +739,7 @@ ls -la`}</code></pre>
           <div className="text-center mb-6 bg-gray-900 p-4 rounded-lg border border-gray-700">
             <p className="text-gray-400 text-sm mb-2">Screenshot: .secret directory contents</p>
             <img 
-              src="/images/day1/day1_img19.png" 
+              src="//my_aoc_2025_journey/images/day1/day1_img19.png" 
               alt="Secret directory showing encrypted tar.gz.gpg file"
               className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
             />
@@ -791,7 +791,7 @@ python3 -m http.server`}</code></pre>
           <div className="text-center mb-6 bg-gray-900 p-4 rounded-lg border border-gray-700">
             <p className="text-gray-400 text-sm mb-2">Screenshot: Starting Python HTTP server</p>
             <img 
-              src="/images/day1/day1_img20.png" 
+              src="//my_aoc_2025_journey/images/day1/day1_img20.png" 
               alt="Python HTTP server running in terminal"
               className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
             />
@@ -808,7 +808,7 @@ python3 -m http.server`}</code></pre>
           <div className="text-center mb-6 bg-gray-900 p-4 rounded-lg border border-gray-700">
             <p className="text-gray-400 text-sm mb-2">Screenshot: The final bonus flag!</p>
             <img 
-              src="/images/day1/day1_img21.png" 
+              src="//my_aoc_2025_journey/images/day1/day1_img21.png" 
               alt="Final bonus flag displayed in browser"
               className="max-w-full h-auto rounded-lg border border-green-500 mx-auto"
             />
