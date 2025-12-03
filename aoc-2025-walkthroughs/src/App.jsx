@@ -8,7 +8,7 @@ import About from './pages/About';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/my_aoc_2025_journey">
       <div className="min-h-screen flex flex-col bg-black">
         <Navbar />
         <main className="flex-grow">
