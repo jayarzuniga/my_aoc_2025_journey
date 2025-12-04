@@ -126,7 +126,7 @@ function Navbar() {
           
           {/* Mobile External Link */}
           <a
-            href="https://tryhackme.com/christmas"
+            href="https://tryhackme.com/adventofcyber25"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-between px-4 py-3 rounded-xl text-base font-medium bg-primary/20 border border-primary/30 text-primary hover:bg-primary hover:text-background-darker transition-all duration-300"

@@ -15,9 +15,8 @@ function Footer() {
   ];
 
   const socialLinks = [
-    { icon: <FaLinkedin />, href: 'https://linkedin.com/in/yourusername', label: 'LinkedIn' },
-    { icon: <FaGithub />, href: 'https://github.com/yourusername', label: 'GitHub' },
-    { icon: <FaTwitter />, href: 'https://twitter.com/yourusername', label: 'Twitter' },
+    { icon: <FaLinkedin />, href: 'https://www.linkedin.com/in/jonhzuniga', label: 'LinkedIn' },
+    { icon: <FaGithub />, href: 'https://github.com/jayarzuniga', label: 'GitHub' },
   ];
 
   return (
@@ -35,11 +34,11 @@ function Footer() {
               Learn cybersecurity concepts through detailed explanations.
             </p>
             <a 
-              href="mailto:your.email@example.com" 
+              href="mailto:jonhronelzuniga@gmail.com" 
               className="flex items-center gap-2 text-primary hover:text-primary-light transition-colors"
             >
               <FaEnvelope />
-              <span className="text-sm font-medium">your.email@example.com</span>
+              <span className="text-sm font-medium">jonhronelzuniga@gmail.com</span>
             </a>
             <div className="flex items-center gap-4 mt-6">
               {socialLinks.map((link) => (
