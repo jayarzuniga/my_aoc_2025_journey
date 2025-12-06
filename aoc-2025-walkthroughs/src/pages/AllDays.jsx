@@ -6,24 +6,36 @@ function AllDays() {
     {
       day: 1,
       title: "Linux CLI - Shells & Bells",
-      difficulty: "Intermediate",
+      difficulty: "Hard",
       topics: ["Linux", "Git", "GPG", "Steganography"],
       completed: true,
-      duration: "45-60 min",
+      duration: "60 - 120 min",
       type: "Side Quest"
     },
+    {
+      day: 6,
+      title: "IDOR - Santa's Little IDOR",
+      difficulty: "Intermediate",
+      topics: ["IDOR", "Access Control", "Burp Suite"],
+      completed: true,
+      duration: "45-60 min",
+      type: "Bonus Task"
+    },
     // Add more days as they're completed
+    
   ];
 
-  // Placeholder days (2-25)
-  const placeholderDays = Array.from({ length: 24 }, (_, i) => ({
-    day: i + 2,
-    title: "Coming Soon...",
-    difficulty: "TBD",
-    topics: [],
-    completed: false,
-    duration: "TBD",
-    type: "Challenge"
+  // Placeholder days 
+  const placeholderDays = Array.from({ length: 23 }, (_, i) => i + 2)
+    .filter(day => day !== 6) 
+    .map(day => ({
+      day,
+      title: "Coming Soon...",
+      difficulty: "TBD",
+      topics: [],
+      completed: false,
+      duration: "TBD",
+      type: "Challenge"
   }));
 
   const allDays = [...days, ...placeholderDays];
@@ -63,15 +75,15 @@ function AllDays() {
             <div className="text-xs text-text-secondary">Completed</div>
           </div>
           <div className="bg-gradient-to-br from-background-card to-background-overlay backdrop-blur-xl border border-ui-border/20 rounded-2xl p-4 text-center">
-            <div className="text-3xl font-black text-primary mb-1">25</div>
+            <div className="text-3xl font-black text-primary mb-1">24</div>
             <div className="text-xs text-text-secondary">Total Days</div>
           </div>
           <div className="bg-gradient-to-br from-background-card to-background-overlay backdrop-blur-xl border border-ui-border/20 rounded-2xl p-4 text-center">
-            <div className="text-3xl font-black text-primary mb-1">{Math.round((days.length / 25) * 100)}%</div>
+            <div className="text-3xl font-black text-primary mb-1">{Math.round((days.length / 24) * 100)}%</div>
             <div className="text-xs text-text-secondary">Progress</div>
           </div>
           <div className="bg-gradient-to-br from-background-card to-background-overlay backdrop-blur-xl border border-ui-border/20 rounded-2xl p-4 text-center">
-            <div className="text-3xl font-black text-primary mb-1">{25 - days.length}</div>
+            <div className="text-3xl font-black text-primary mb-1">{24 - days.length}</div>
             <div className="text-xs text-text-secondary">Locked</div>
           </div>
         </div>
@@ -198,7 +210,7 @@ function AllDays() {
                 
                 {/* Hover Arrow */}
                 {isCompleted && (
-                  <div className="absolute right-6 top-1/2 -translate-y-1/2 text-primary opacity-0 group-hover:opacity-100 group-hover:translate-x-2 transition-all duration-300">
+                  <div className="absolute right-6 bottom-4 -translate-y-1/2 text-primary opacity-0 group-hover:opacity-100 group-hover:translate-x-2 transition-all duration-300">
                     <span className="text-2xl">→</span>
                   </div>
                 )}

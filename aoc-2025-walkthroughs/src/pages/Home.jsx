@@ -5,6 +5,7 @@ function Home() {
 
   const allDays = [
     { day: 1, title: "Linux CLI - Shells & Bells", difficulty: "Intermediate", topics: ["Linux", "Git", "GPG"], completed: true },
+    { day: 6, title: "IDOR - Santa’s Little IDOR", difficulty: "Intermediate", topics: ["IDOR", "Access Control", "Burp Suite"], completed: true },
     // Days 2-25 are locked for now
     ...Array.from({ length: 24 }, (_, i) => ({
       day: i + 2,
