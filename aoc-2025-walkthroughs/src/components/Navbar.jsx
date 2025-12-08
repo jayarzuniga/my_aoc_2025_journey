@@ -65,7 +65,7 @@ function Navbar() {
 
             {/* External Link */}
             <a
-              href="https://tryhackme.com/christmas"
+              href="https://tryhackme.com/adventofcyber25"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2 bg-primary/20 border border-primary/30 text-primary rounded-lg font-medium hover:bg-primary hover:text-background-darker transition-all duration-300"

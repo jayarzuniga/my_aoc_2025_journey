@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-function Day6() {
+function Day5() {
   return (
     <div className="min-h-screen bg-background-darker py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
@@ -8,10 +8,10 @@ function Day6() {
         {/* Day Navigation */}
         <div className="flex justify-between items-center mb-8 bg-gradient-to-br from-background-card to-background-overlay backdrop-blur-xl border border-ui-border/20 rounded-2xl p-4">
           <Link 
-            to="/day/5"
+            to="/day/4"
             className="text-text-secondary hover:text-primary px-6 py-3 border border-ui-border rounded-xl hover:bg-primary/10 hover:-translate-y-0.5 transition-all duration-300 font-medium"
           >
-            ← Day 5
+            ← Day 4
           </Link>
           
           <Link 
@@ -22,10 +22,10 @@ function Day6() {
           </Link>
           
           <Link 
-            to="/day/7"
+            to="/day/6"
             className="text-text-secondary hover:text-primary px-6 py-3 border border-ui-border rounded-xl hover:bg-primary/10 hover:-translate-y-0.5 transition-all duration-300 font-medium"
           >
-            Day 7 →
+            Day 6 →
           </Link>
         </div>
 
@@ -35,7 +35,7 @@ function Day6() {
           
           <div className="relative z-10">
             <h1 className="text-5xl md:text-6xl font-black text-primary text-center mb-4 matrix-text">
-              🎄 Day 6: Santa's Little IDOR 🎄
+              🎄 Day 5: Santa's Little IDOR 🎄
             </h1>
             <p className="text-text-secondary text-center mb-6 text-xl">Insecure Direct Object References - Complete Walkthrough</p>
             
@@ -877,4 +877,4 @@ function Day6() {
   );
 }
 
-export default Day6;
+export default Day5;

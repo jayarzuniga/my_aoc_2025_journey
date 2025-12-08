@@ -7,7 +7,7 @@ import About from './pages/About';
 
 {/* Days */}
 import Day1 from './pages/days/Day1';
-import Day6 from './pages/days/Day6';
+import Day5 from './pages/days/Day5';
 
 
 function App() {
@@ -23,9 +23,9 @@ function App() {
             <Route path="/day/1" element={<Day1 />} />
             {/* <Route path="/day/2" element={<Day2 />} />
             <Route path="/day/3" element={<Day3 />} />
-            <Route path="/day/4" element={<Day4 />} />
-            <Route path="/day/5" element={<Day5 />} /> */}
-            <Route path="/day/6" element={<Day6 />} />
+            <Route path="/day/4" element={<Day4 />} /> */}
+            <Route path="/day/5" element={<Day5 />} />
+            {/* <Route path="/day/6" element={<Day6 />} /> */}
             {/* <Route path="/day/7" element={<Day7 />} />
             <Route path="/day/8" element={<Day8 />} />
             <Route path="/day/9" element={<Day9 />} />

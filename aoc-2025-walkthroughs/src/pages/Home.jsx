@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 
 function Home() {
-  const completedDays = [1];
+  const completedDays = [1, 5];
 
   const allDays = [
     { day: 1, title: "Linux CLI - Shells & Bells", difficulty: "Intermediate", topics: ["Linux", "Git", "GPG"], completed: true },
-    { day: 6, title: "IDOR - Santa’s Little IDOR", difficulty: "Intermediate", topics: ["IDOR", "Access Control", "Burp Suite"], completed: true },
+    { day: 5, title: "IDOR - Santa’s Little IDOR", difficulty: "Intermediate", topics: ["IDOR", "Access Control", "Burp Suite"], completed: true },
     // Days 2-25 are locked for now
     ...Array.from({ length: 24 }, (_, i) => ({
       day: i + 2,
@@ -68,7 +68,7 @@ function Home() {
             <div className="text-text-secondary text-sm">Days Completed</div>
           </div>
           <div className="bg-gradient-to-br from-background-card to-background-overlay backdrop-blur-xl border border-ui-border/20 rounded-2xl p-6 text-center transform hover:scale-105 hover:border-primary/30 transition-all duration-300">
-            <div className="text-5xl font-black text-primary mb-2">25</div>
+            <div className="text-5xl font-black text-primary mb-2">24</div>
             <div className="text-text-secondary text-sm">Total Days</div>
           </div>
           <div className="bg-gradient-to-br from-background-card to-background-overlay backdrop-blur-xl border border-ui-border/20 rounded-2xl p-6 text-center transform hover:scale-105 hover:border-primary/30 transition-all duration-300">
@@ -113,7 +113,7 @@ function Home() {
                 
                 <div className="flex gap-2 flex-wrap mb-4">
                   <span className="bg-primary/20 border border-primary/30 text-primary px-3 py-1 rounded-full text-sm font-medium">
-                    Intermediate
+                    Hard
                   </span>
                   <span className="bg-primary/20 border border-primary/30 text-primary px-3 py-1 rounded-full text-sm font-medium">
                     Linux
@@ -131,7 +131,7 @@ function Home() {
 
                 <div className="flex items-center gap-4 text-sm text-text-muted">
                   <span>📖 10+ Steps</span>
-                  <span>⏱️ 45-60 min</span>
+                  <span>⏱️ 60-120 min</span>
                   <span>🏆 Side Quest</span>
                 </div>
               </div>
@@ -268,7 +268,7 @@ function Home() {
                 Start with Day 1 🎯
               </Link>
               <a 
-                href="https://tryhackme.com/christmas"
+                href="https://tryhackme.com/adventofcyber25"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-8 py-4 bg-transparent border-2 border-primary text-primary font-bold rounded-2xl hover:bg-primary hover:text-background-darker hover:-translate-y-0.5 transition-all duration-300"
