@@ -851,10 +851,10 @@ function Day5() {
         {/* Navigation Footer */}
         <div className="flex justify-between items-center mt-12 bg-gradient-to-br from-background-card to-background-overlay backdrop-blur-xl border border-ui-border/20 rounded-2xl p-6">
           <Link 
-            to="/day/5"
+            to="/day/4"
             className="text-text-secondary hover:text-primary px-6 py-3 border border-ui-border rounded-xl hover:bg-primary/10 hover:-translate-y-0.5 transition-all duration-300 font-medium"
           >
-            ← Day 5
+            ← Day 4
           </Link>
           
           <Link 
@@ -865,10 +865,10 @@ function Day5() {
           </Link>
           
           <Link 
-            to="/day/7"
+            to="/day/6"
             className="text-text-secondary hover:text-primary px-6 py-3 border border-ui-border rounded-xl hover:bg-primary/10 hover:-translate-y-0.5 transition-all duration-300 font-medium"
           >
-            Day 7 →
+            Day 6 →
           </Link>
         </div>
 
